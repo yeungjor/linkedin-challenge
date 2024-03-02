@@ -60,7 +60,7 @@ h1 {
     /**
     	TODO: Fix me
     **/
-    width: 15rem;
+    width: 40vw;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -68,7 +68,7 @@ h1 {
     /**
     	TODO: Fix me
     **/
-    width: 20rem;
+    width: 30vw;
   }
 }
 .profile-card__img {
