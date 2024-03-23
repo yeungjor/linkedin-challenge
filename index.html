@@ -15,17 +15,18 @@
       <div class="nav__logo">
         <img src="./assets/images/In-White-128.png" />
       </div>
-      <div class="nav__username">Jordan Yeung</div>
+      <div class="nav__username data-username"></div>
     </nav>
     <!--- Main Container-->
     <main class="container">
       <section class="left-container">
         <section class="profile-card">
           <div class="profile-card__img">
-            <img src="./assets/images/man.png" />
+            <img class="data-profilepic" src="./assets/images/woman.png" />
           </div>
           <div class="profile-card__title">
-            Jordan Yeung, Software Engineering Student
+            <span class="data-username"></span>,
+            <span class="data-job-title"></span>
           </div>
         </section>
       </section>
@@ -33,7 +34,7 @@
         <section class="start-post">
           <div class="start-post-user">
             <div class="start-post-user__img">
-              <img src="./assets/images/man.png" />
+              <img class="data-profilepic" src="./assets/images/woman.png" />
             </div>
             <div class="start-post-user__text">
               <input type="text" placeholder="Start Post" />
@@ -82,5 +83,6 @@
         </section>
       </section>
     </main>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
