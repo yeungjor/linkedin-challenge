@@ -1,5 +1,5 @@
-const username = "John Doe";
-const jobtitle = "Zoo Keeper";
+const username = "Jordan Yeung";
+const jobtitle = "Software Engineering Student";
 const profilepic = "./assets/images/man.png";
 
 const usernameElems = document.querySelectorAll(".data-username");
